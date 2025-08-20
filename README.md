@@ -2,14 +2,17 @@
 🎯 Aim
 
 To study and implement pointer operations in C++ and understand the difference between call by value and call by reference parameter-passing methods.
+
 📚 Theory
 
 In C++, the way we pass parameters to functions determines whether changes inside the function affect the original variables.
+
 📦 Call by Value
 
     Definition: A copy of the actual parameter is passed to the function.
     Effect: Changes happen only on the copy → originals remain unchanged.
     Working: Function operates in its own scope and does not affect caller variables.
+
 
 🔗 Call by Reference
 
@@ -17,7 +20,9 @@ In C++, the way we pass parameters to functions determines whether changes insid
     Effect: Changes done inside the function reflect in the caller variables.
     Working: Function receives pointers (or references) → dereferences them to access and modify actual memory.
 
+
 📊 Comparison Table
+
 ⚙️ Feature 	📦 Call by Value 	🔗 Call by Reference
 Data Passed 	Copy of value 	Address / reference
 Changes affect original 	❌ No 	✅ Yes
@@ -28,6 +33,7 @@ Typical Use Case 	Read-only operations 	In-place modifications
 
 📌 Call by Value vs Call by Reference
 image
+
 📋 Algorithms
 🔹 Employee Salary Increment Check
 
